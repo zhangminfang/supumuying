@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>欢迎登录</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/public.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+    <script src="../lib/slideVerify/js/jq-slideVerify.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+    <!-- logo区域开始 -->
+<div class="login_midlle">
+    <div class="wrap con">
+        <div class="logo1 fl"> <a href="#"> <img src="../images/logo1.jpg" width="155" height="56" /> </a> </div>
+        <div class="login_character fl"> 欢迎登录 </div>
+    </div>
+</div>
+<!-- 登录页面中部开始 -->
+<div class="login_content">
+    <!-- <input type="hidden" value="" id="hdUrlType"> -->
+    <div class="wrap con login_main_bg">
+        <!-- 登录-->
+        <div class="login fr">
+            <div class="login_header">
+                <span>会员登录</span>
+                <b class="login_gray">没有速普账号？<a href="javascript:;" id="go_reg">立即注册</a></b>
+            </div>
+            <form method="post" action="" id="LoginForm">
+                <div class="login_error_section">
+                    <div class="error_tips" id="DIVLoginMsg"><i></i><span>用户名或密码不能为空</span></div>
+                </div>
+                <div class="login_account_total">
+                    <div class="input_icon account_icon"></div>
+                    <input type="text" id="account" name="username" class="login_input_size" placeholder="手机号" maxlength="50"/>
+                </div>
+                <div class="clear"></div>
+                <div class="login_password_total">
+                    <div class="input_icon password_icon"></div>
+                    <input type="password" id="password" name="userpassword" class="password login_input_size"  placeholder="密码" maxlength="16"/>
+                    <i></i>
+                </div>
+                <div class="clear"></div>
+                <!-- huakuai -->
+                <!-- <div class="verify-wrap" id="verify-wrap"></div> -->
+                <div class="clear"></div>
+                <div class="login_checkbox_all">
+         <span class="login_checkbox fl">
+          <input type="checkbox"  value="记住用户名" id="cbRememberUserName"/>&nbsp;记住用户名</span>
+        <span class="login_checkbox auto_login fl">
+         <input type="checkbox"  value="自动登录" id="cbAutoLogin" checked="checked"/>&nbsp;自动登录</span>
+                    <span class="login_forget"> <a href="#find_password_step1"  class="fancybox login_forget_pas">忘记密码了？</a></span>
+                </div>
+                <button id="btnLogin" name="btnLogin" class="btn fl login_submit"><span>登　录</span></button>
+                <div class="clear"></div>
+            </form>
+            <div class="login_relat_account">
+                <div class="account_login"><label class="fl">合作账户登录：</label>
+                    <a href="/ThirdLogin/login/type/Alipay" target="_blank"><img src="../images/zhifubao.png"></a>
+                    <a href="/ThirdLogin/login/type/weixin" target="_blank" style="display: none;"><img src="../images/weixin.png"></a>
+                    <a href="/ThirdLogin/login/type/Sina" target="_blank"><img src="../images/weibo.png" ></a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--           注册               -->
+        <div class="reg fr">
+            <div class="login_header">
+                <span>用户注册</span>
+                <b class="login_gray">已有账号？<a href="javascript:;" id="go_login">立即登录</a></b>
+            </div>
+            <form id="RegisterForm" method="post" action="">
+                <div class="login_error_section">
+                    <div class="error_tips" id="DIVRegisterMsg"><i></i><span>邮箱或手机号格式不正确</span></div>
+                </div>
+                <div class="login_account_total">
+                    <div class="input_icon account_icon"></div>
+                    <input type="text" id="new_account" name="new_account" class="login_input_size username" placeholder="手机号" maxlength="50"/>
+                </div>
+                <div class="clear"></div>
+                <div class="login_password_total">
+                    <div class="input_icon password_icon"></div>
+                    <input type="password" id="reg_password" name="reg_password" class="pwd login_input_size"  placeholder="6-16位字符，必须包含英文字母和数字" maxlength="16"/>
+                    <i></i>
+                </div>
+                <div class="clear"></div>
+              <!--   <div class="code_total login_verify_area">
+                    <div class="input_icon randomcode_icon"></div>
+                    <input type="text" id="reg_verifyCode" name="reg_verifyCode" class="code_input_size" maxlength="4" placeholder="输入验证码"/>
+                     <span class="random">点击获取验证码</span>
+                </div> -->
+                <div class="clear"></div>
+                <div class="code_total">
+                    <div class="input_icon code_icon"></div>
+                    <input type="text" id="ver_code" name="ver_code" class="code_input_size" placeholder="输入手机验证码" maxlength="10"/>
+                    <input type="button" id="btn_getcode" class="btn_getcode fr" value="获取验证码" onclick="GetAuthCode(this)"/>
+                </div>
+                <div class="clear"></div>
+                <div class="deal">
+                    <input type="checkbox" class="deal_agree" checked/>&nbsp;&nbsp;我已阅读并同意<a href="/StaticPage/user-agreement.html"  class="fancybox fancybox.iframe user_agreement a_blue">《速普商城用户协议》</a>
+                </div>
+                <button id="btnRegister" class="btn fl reg_submit"><span>注  册</span></button>
+                <div class="clear"></div>
+            </form>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<!-- 登录页面中部结束 -->
+<!--忘记密码弹框-->
+
+<!--footer(登陆注册与购物车共用)-->
+<div class="supuy_info_box login_foot">
+        <div class="login_coryright">Copyright © 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号 </div>
+    <div class="zizhi">
+        <a href="/helper/license.html" target="_blank"><img src="../images/zhizhao.png" width="137" height="47" /><img src="../images/dibu.png"  alt=""></a>
+    </div>
+</div>
+<!-- <script type="text/javascript">
+        $(function(){
+            var SlideVerifyPlug = window.slideVerifyPlug;
+            var slideVerify = new SlideVerifyPlug('#verify-wrap',{
+                wrapWidth:'300',//设置 容器的宽度 ，默认为 350 ，也可不用设，你自己css 定义好也可以，插件里面会取一次这个 容器的宽度
+                initText:'请按住滑块',  //设置  初始的 显示文字
+                sucessText:'验证通过',//设置 验证通过 显示的文字
+                getSucessState:function(res){
+                    //当验证完成的时候 会 返回 res 值 true，只留了这个应该够用了 
+                    console.log(res);
+                    // if(res==true){
+                        // window.location.href = "../../index.html"; 
+                    // }
+                }
+            });
+            console.log($(".fix-tips").html())
+           
+        })
+    </script> -->
+</body>
+</html>

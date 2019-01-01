@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>速普母婴商城-专业的母婴商城，正品低价，母婴用品购物就选速普母婴商城</title>
+    <base href="src/" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="icon/iconfont.css" />
+    <script src="lib/jquery-3.2.1.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--============================== 侧边栏 ================================-->
+    <div class="nav_right">
+        <ul>
+            <li>
+                <a href="javascript:;" target="_blank">
+                <i class="iconfont icon-yonghu "></i><span>&nbsp;&nbsp;我的速普&nbsp;&nbsp;</span></a>
+            </li>
+            <li>
+                <a href="icon-test" target="_blank">
+                <i class="iconfont icon-like"></i><span>&nbsp;&nbsp;我的收藏&nbsp;&nbsp;</span></a>
+            </li>
+            <li id="end">
+                <a href="javascript:;" class="shopcar">
+                <i class="iconfont icon-gouwuche"></i>
+                <span>&nbsp;&nbsp;购物车&nbsp;&nbsp;</span></a><div class="cart_count">0</div>
+            </li>
+            <li class="scroll_top">
+                <i class="iconfont icon-fanhuidingbu"></i><span>&nbsp;&nbsp;返回顶部&nbsp;&nbsp;</span>
+            </li>
+        </ul>
+</div>
+<!-- ==============================头部=================================-->
+<div id="header">
+<!-- 顶部 -->
+    <div class="top">
+        <div class="wrap con">
+            <div class="login_box fl">
+                欢迎来到速普商城！ 请 [<a href="" class="login" > 登录 </a>] [<a href="javascript:;"class="sign"> 免费注册 </a>]
+                <br class="clear" />
+            </div>
+            <div class="top_nav fr">
+                <div class="li_box">
+                    <div class="top_nav_menu"> <a href="javascript:;" >消费者告知书</a> </div>
+                </div>
+                <div class="li_box">
+                    <div class="top_nav_menu"> <a href="javascript:;" >我的订单</a> </div>
+                </div>
+                <div class="li_box" id="supuy_user">
+                    <div class="top_nav_menu"> <a href="javascript:;" >我的速普<span></span></a> </div>
+                    <div id="user_con" class="user_con">
+                        <ul>
+                            <li><a href="javascript:;">我的优惠券</a> </li>
+                            <li><a href="javascript:;">我的收藏</a> </li>
+                            <li><a href="javascript:;">我的积分</a> </li>
+                            <li><a href="javascript:;">现金账户</a> </li>
+                            <li><a href="javascript:;">待评价</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="li_box" id="supuy_app">
+                    <div class="top_nav_menu"> 
+                        <a href="javascript:;">手机端<span></span></a> </div>
+                    <div id="app_con" class="app_con">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="lazy" src="images/app.jpg" width="120" height="120" alt="APP二维码" /> </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="lazy" src="images/erweima.jpg" width="120" height="120" alt="微信二维码" /> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="li_box">
+                    <div class="top_nav_menu"> <a href="javascript:;" target="_blank">网站导航</a> </div>
+                </div>
+                <div class="li_box" id="supuy_service">
+                    <div class="top_nav_menu"> <a href="javascript:;">400-618-0055<span></span></a> </div>
+                    <div id="service_con" class="service_con">
+                        <ul>
+                            <li><a href="javascript:;" target="_blank">帮助中心</a> </li>
+                            <li><a href="javascript:;" target="_blank" style="font-weight:bold;">400-618-0055</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-- 搜索&logo -->
+    <div class="midlle">
+        <div class="wrap con">
+            <div class="logo fl">
+                <a href="index.html">
+                    <img class="lazy" src="images/logo.jpg" height="70" width="210" alt="速普母婴商城LOGO" title="速普母婴商城LOGO" />
+                    <h1 style="display: none;">速普母婴商城</h1>
+                </a>
+            </div>
+            <div class="search_box fl">
+                <form action="/Goods/index/" method="get" name="searchform" id="searchform" class="searchinfo">
+                    <div class="search_icon fl"></div>
+                    <input name="keywords" type="text" id="search_text" value="" class="fl" autocomplete="off" />
+                    <div class="suggest_box">
+                    </div>
+                    <input name="search_btn" type="submit" id="search_btn" value="搜索" />
+                </form>
+                <div class="hot_search">
+                    <ul>
+                        <li>热门搜索：</li>
+                        <li><a href="javascript:;" target="_blank">荷兰牛栏</a> </li><li><a href="javascript:;" >花王</a> </li><li><a href="javascript:;">惠氏</a> </li><li><a href="javascript:;" target="_blank">好奇</a> </li><li><a href="javascript:;" >新安怡</a> </li><li><a href="javascript:;">嘉宝</a> </li>                    
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+           <div class="cart_box_small fl">
+                <a href="javascript:;"  class="cart_small"><b></b> <span class="fl">购物车</span> <i class="triangle-left fl"></i> <em class="cart_no fl">0</em>
+                    <div class="clear"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+<!-- 导航栏 -->
+     <div class="headNav">
+        <div class="navCon wrap con">
+            <div class="navCon-cate fl ">
+                <div class="navCon-cate-title"> <a href="javascript:;" target="_blank">全部商品分类</a> </div>
+                <div class="cateMenu">
+                    <ul>
+                        <li>
+                            <div class="cate-tag">
+                                <div class="first_menu">
+                                    <a href="javascript:;" >
+                                    <span class="icon_1 fl"></span>妈妈专区
+                                    <i class="arrow_right"></i></a> 
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <div class="itemleft"><dl>
+                                        <dt>孕期营养</dt>
+                                            <dd>
+                                            <a href="javascript:;" >维生素</a>
+                                            <a href="javascript:;" >DHA</a>
+                                            <a href="javascript:;" >催乳茶</a><div class="clear"></div></dd>
+                                    </dl>
+                                <div class="clear"></div><dl>
+                                        <dt>孕妈外出服</dt>
+                                            <dd>
+                                            <a href="javascript:;" >上衣</a>
+                                            <a href="javascript:;" >套装</a>
+                                            <a href="javascript:;" >连衣裙/裙装</a>
+                                            <div class="clear"></div>
+                                            </dd>
+                                        </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>孕妈家居服</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >套装</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>孕妈洗护</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >口腔护理</a>
+                                                    <a href="javascript:;" >面部护理</a>
+                                                    <a href="javascript:;" >身体护理</a>
+                                                    <a href="javascript:;" >身体清洁</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>母乳喂养</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >喂哺用枕</a>
+                                                    <a href="javascript:;" >托腹带</a>
+                                                    <a href="javascript:;" >护理枕</a>
+                                                    <a href="javascript:;" >吸奶装置</a>
+                                                    <a href="javascript:;" >溢乳防护</a>
+                                                    <a href="javascript:;" >乳头保护</a>
+                                                    <a href="javascript:;" >乳头理疗</a>
+                                                    <a href="javascript:;" >母乳保鲜</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>婴儿背带/妈咪包</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >婴儿背带</a>
+                                                    <a href="javascript:;" >抱婴腰凳</a>
+                                                    <a href="javascript:;" >亲子学步</a>
+                                                    <a href="javascript:;" >妈咪包</a>
+
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>待产/新生</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >卫生护理</a>
+                                                    <a href="javascript:;" >孕妈待产</a>
+                                                    <a href="javascript:;" >基因检测</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>防辐射服</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >防辐背心</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>文胸/内裤</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >文胸</a>
+                                                    <a href="javascript:;" >内裤</a>
+                                                    <a href="javascript:;" >月子装</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>产后塑身</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >束腹收腹</a>
+                                                    <a href="javascript:;" >盆骨矫正</a>
+                                                    <a href="javascript:;" >束臀瘦身</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        
+                                            <dl>
+                                                <dt>热卖品牌</dt>
+                                                <dd>
+                                                    <a href="javascript:;">十月天使</a>
+                                                    <a href="javascript:;">萃芙理Chainfree</a>
+                                                    <a href="javascript:;">贝亲Pigeon</a>
+                                                    <a href="javascript:;">六甲村</a>
+                                                    <a href="javascript:;">贝莱康</a>
+                                                    <a href="javascript:;">三洋dacco</a>
+                                                    <a href="javascript:;">小白熊</a>
+                                                    <a href="javascript:;">美德乐Medela</a>
+                                                    <a href="javascript:;">飞利浦新安怡AVENT</a>
+                                                    <a href="javascript:;">抱抱熊</a>
+                                                    <a href="javascript:;">乐佳善优Lacare</a>
+                                                    <a href="javascript:;">女之御</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                    
+                                            </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;" target="_blank">
+                                            <img src="images/1491789506.jpg" height="221" width="200" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;" target="_blank">
+                                            <img src="images/1461915786.jpg" height="221" width="200" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li><li>
+                                <div class="cate-tag">
+                                    <div class="first_menu"><a href="javascript:;
+                                    " ><span class="icon_2 fl"></span>奶粉专区<i class="arrow_right"></i></a> </div>
+                                </div>
+                                <div class="list-item ">
+                                    <div class="itemleft">
+                                        <dl>
+                                                <dt>婴儿奶粉</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >Pre段</a>
+                                                    <a href="javascript:;" >1段</a>
+                                                    <a href="javascript:;" >2段</a>
+                                                    <a href="javascript:;" >3段</a>
+                                                    <a href="javascript:;" >4段</a>
+                                                    <a href="javascript:;" >5段</a>
+                                                    <a href="javascript:;" >特殊配方</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>成人奶粉</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >学生奶粉</a>
+                                                    <a href="javascript:;" >中老年奶粉</a>
+                                                    <a href="javascript:;" >孕产妇奶粉</a>
+
+                        <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        <dl>
+                                                <dt>热卖品牌</dt>
+                                                <dd>
+                                                    <a href="javascript:;">惠氏Wyeth</a>
+                                                    <a href="javascript:;">雅培Abbott</a>
+                                                    <a href="javascript:;">美赞臣MeadJohnson</a>
+                                                    <a href="javascript:;">美素Friso</a>
+                                                    <a href="javascript:;">迈高Murray Goulburn</a>
+                                                    <a href="javascript:;">雀巢Nestle</a>
+                                                    <a href="javascript:;">可瑞康Karicare</a>
+                                                    <a href="javascript:;">贝拉米Bellamy's</a>
+                                                    <a href="javascript:;">荷兰牛栏Nutrilon</a>
+                                                    <a href="javascript:;">荷兰美素Hero Baby</a>
+                                                    <a href="javascript:;">喜宝Hipp</a>
+                                                    <a href="javascript:;">爱他美Aptamil</a>
+                                                    <a href="javascript:;">A2</a>
+                                                    <a href="javascript:;">诺优能Nutrilon</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                    </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;">
+                                            <img src="images/1459497393.jpg" height="221" width="200" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;">
+                                            <img src="images/1461916469.jpg" height="221" width="200" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li><li>
+                                <div class="cate-tag">
+                                    <div class="first_menu"><a href="javascript:;" ><span class="icon_3 fl"></span>辅食营养<i class="arrow_right"></i></a> </div>
+                                </div>
+                                <div class="list-item">
+                                    <div class="itemleft">
+                                        <dl>
+                                                <dt>辅食</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >婴儿肉松</a>
+                                                    <a href="javascript:;" >面条/粥</a>
+                                                    <a href="javascript:;" >果泥/果汁</a>
+                                                    <a href="javascript:;" >米粉/菜粉</a>
+                                                    <a href="javascript:;" >宝宝零食</a>
+                                                    <a href="javascript:;" >饼干糕点</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>营养品</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >增强免疫力</a>
+                                                    <a href="javascript:;" >核桃油</a>
+                                                    <a href="javascript:;" >DHA/鱼油</a>
+                                                    <a href="javascript:;" >钙铁锌/维生素</a>
+                                                    <a href="javascript:;" >益生菌/初乳</a>
+                                                    <a href="javascript:;" >清火/开胃</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        
+                                            <dl>
+                                                <dt>热卖品牌</dt>
+                                                <dd>
+                                                    <a href="javascript:;">托马斯Thomas</a>
+                                                    <a href="javascript:;">金高</a>
+                                                    <a href="javascript:;">宝噜噜</a>
+                                                    <a href="javascript:;">金晔</a>
+                                                    <a href="javascript:;">海地村</a>
+                                                    <a href="javascript:;">嘉宝Gerber</a>
+                                                    <a href="javascript:;">康贝多维</a>
+                                                    <a href="javascript:;">国丰</a>
+                                                    <a href="javascript:;">草原情</a>
+                                                    <a href="javascript:;">海绵宝宝</a>
+                                                    <a href="javascript:;">方广</a>
+                                                    <a href="javascript:;">汉臣氏</a>
+                                                    <a href="javascript:;">亨氏Heinz</a>
+                                                    <a href="javascript:;">谷妈咪</a>
+                                                    <a href="javascript:;">爱珍Ourjoy</a>
+                                                    <a href="javascript:;">百乐麦</a>
+                                                    <a href="javascript:;">妈咪爱Ofmom</a>
+                                                    <a href="javascript:;">小铁人</a>
+                                                    <a href="javascript:;">乐佳善优Lacare</a>
+                                                    <a href="javascript:;">朵望</a>
+                                                    <a href="javascript:;">高培</a>
+                                                    <a href="javascript:;">每伴</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                    
+                                            </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;">
+                                            <img src="images/1457755707.jpg" height="221" width="200" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;">
+                                            <img src="images/1461916023.jpg" height="221" width="200" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li><li>
+                                <div class="cate-tag">
+                                    <div class="first_menu"><a href="javascript:;" ><span class="icon_4 fl"></span>尿裤湿巾<i class="arrow_right"></i></a> </div>
+                                </div>
+                                <div class="list-item ">
+                                    <div class="itemleft">
+                                        <dl>
+                                            <dt>婴儿尿裤</dt>
+                                            <dd>
+                                                <a href="javascript:;" >新生儿（NB）</a>
+                                                <a href="javascript:;" >小号（S）</a>
+                                                <a href="javascript:;" >中号（M）</a>
+                                                <a href="javascript:;" >大号（L）</a>
+                                                <a href="javascript:;" >加大号（XL）</a>
+                                                <a href="javascript:;" >特大号（XXL）</a>
+                                                <a href="javascript:;" >拉拉裤</a>
+                                                <a href="javascript:;" >尿片</a>
+                                                <div class="clear"></div>
+                                            </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>湿巾</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >手口湿巾</a>
+                                                    <a href="javascript:;" >屁屁湿巾</a>
+                                                    <a href="javascript:;" >洁肤湿巾</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        
+                                            <dl>
+                                                <dt>热卖品牌</dt>
+                                                <dd>
+                                                    <a href="javascript:;">妈咪宝贝Mamypoko</a>
+                                                    <a href="javascript:;">好奇Huggies</a>
+                                                    <a href="javascript:;">花王Merries</a>
+                                                    <a href="javascript:;">康洁</a>
+                                                    <a href="javascript:;">帮宝适Pampers</a>
+                                                    <a href="javascript:;">大王GOO.N</a>
+                                                    <a href="javascript:;">贝贝爱</a>
+                                                    <a href="javascript:;">康贝Combi</a>
+                                                    <a href="javascript:;">班博BAMBO</a>
+                                                    <a href="javascript:;">泰迪熊Teddy Bear</a>
+                                                    <a href="javascript:;">尤妮佳moony</a>
+                                                    <a href="javascript:;">爱婴舒坦BioFities</a>
+                                                    <a href="javascript:;">露安适Lelch</a>
+                                                    <a href="javascript:;">爱婴乐</a>
+                                                    <a href="javascript:;">酷比奇</a>
+                                                    <a href="javascript:;">蒙爱</a>
+                                                    <a href="javascript:;">五羊FIVERAMS</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                    
+                                            </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;">
+                                            <img src="images/1455931708.jpg" height="221" width="200" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;">
+                                            <img src="images/1455681136.jpg" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li><li>
+                                <div class="cate-tag">
+                                    <div class="first_menu"><a href="javascript:;" ><span class="icon_5 fl"></span>喂养洗护<i class="arrow_right"></i></a> </div>
+                                </div>
+                                <div class="list-item ">
+                                    <div class="itemleft">
+                                        <dl>
+                                                <dt>喂养用品</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >奶瓶奶嘴</a>
+                                                    <a href="javascript:;" >水杯/水壶</a>
+                                                    <a href="javascript:;" >盘碗叉勺</a>
+                                                    <a href="javascript:;" >安抚/牙胶</a>
+                                                    <a href="javascript:;" >暖奶消毒</a>
+                                                    <a href="javascript:;" >辅食料理机</a>
+                                                    <a href="javascript:;" >辅助配件</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>洗护用品</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >宝宝洗浴</a>
+                                                    <a href="javascript:;" >宝宝护肤</a>
+                                                    <a href="javascript:;" >奶瓶清洗</a>
+                                                    <a href="javascript:;" >洗衣液/皂</a>
+                                                    <a href="javascript:;" >理发器</a>
+                                                    <a href="javascript:;" >驱蚊防蚊</a>
+                                                    <a href="javascript:;" >坐便器</a>
+                                                    <a href="javascript:;" >日常护理</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        <dl>
+                                                <dt>热卖品牌</dt>
+                                                  <dd>
+                                                    <a href="javascript:;">贝亲Pigeon</a>
+                                                    <a href="javascript:;">乐儿宝BOBO</a>
+                                                    <a href="javascript:;">飞利浦新安怡AVENT</a>
+                                                    <a href="javascript:;">小白熊</a>
+                                                    <a href="javascript:;">努比Nuby</a>
+                                                    <a href="javascript:;">美德乐Medela</a>
+                                                    <a href="javascript:;">利其尔Richell</a>
+                                                    <a href="javascript:;">康贝Combi</a>
+                                                    <a href="javascript:;">日本原装进口贝亲</a>
+                                                    <a href="javascript:;">膳魔师THERMOS</a>
+                                                    <a href="javascript:;">布朗博士Dr Brown’s</a>
+                                                    <a href="javascript:;">日康</a>
+                                                    <a href="javascript:;">NUK</a>
+                                                    <a href="javascript:;">新贝</a>
+                                                    <a href="javascript:;">世纪宝贝babyhood</a>
+                                                    <a href="javascript:;">五羊FIVERAMS</a>
+                                                    <a href="javascript:;">红色小象</a>
+                                                    <a href="javascript:;">澳诺雅</a>
+                                                    <a href="javascript:;">OKBABY</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                    
+                                            </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;">
+                                            <img src="images/1474339778.jpg" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;">
+                                            <img src="images/1461916143.jpg" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li><li>
+                                <div class="cate-tag">
+                                    <div class="first_menu"><a href="javascript:;" ><span class="icon_6 fl"></span>玩具图书<i class="arrow_right"></i></a> </div>
+                                </div>
+                                <div class="list-item ">
+                                    <div class="itemleft">
+                                        <dl>
+                                            <dt>婴幼玩具</dt>
+                                            <dd>
+                                                <a href="javascript:;" >床铃/摇铃</a>
+                                                <a href="javascript:;" >拖拉玩具</a>
+                                                <a href="javascript:;" >健身架</a>
+                                                <a href="javascript:;" >早教机</a>
+                                                <a href="javascript:;" >布书/布玩</a>
+                                                <a href="javascript:;" >早教启智</a>
+                                                <a href="javascript:;" >乐器玩具</a>
+                                                <div class="clear"></div>
+                                            </dd>
+                                        </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>积木拼插</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >木质积木</a><a href="javascript:;" >立体拼插</a><a href="javascript:;" >拼图</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>健身玩具</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >爬行垫/毯</a><a href="javascript:;" >沙滩/戏水</a><a href="javascript:;" >摇摇马</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>图书</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >婴幼儿图书</a>
+                                                     <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        
+                                            <dl>
+                                                <dt>热卖品牌</dt>
+                                                <dd>
+                                                    <a href="javascript:;">澳贝auby</a>
+                                                    <a href="javascript:;">费雪Fisher-Price</a>
+                                                    <a href="javascript:;">贝恩施Beiens</a>
+                                                    <a href="javascript:;">谷雨</a>
+                                                    <a href="javascript:;">皇室Toyroyal</a>
+                                                    <a href="javascript:;">汇乐</a>
+                                                    <a href="javascript:;">英纷</a>
+                                                    <a href="javascript:;">彩珀</a>
+                                                    <a href="javascript:;">木玩世家</a>
+                                                    <a href="javascript:;">优彼ubbie</a>
+                                                    <a href="javascript:;">阿李罗</a>
+                                                    <a href="javascript:;">LALA布书</a>
+                                                    <a href="javascript:;">LALA布玩</a>
+                                                    <a href="javascript:;">德国Beleduc</a>
+                                                    <a href="javascript:;">铭塔</a>
+                                                    <a href="javascript:;">银辉</a>
+                                                    <a href="javascript:;">NIC</a>
+                                                    <a href="javascript:;">盛阳</a>
+                                                    <a href="javascript:;">建雄</a>
+                                                    <a href="javascript:;">阳光公园 </a>
+                                                    <a href="javascript:;">汇迪</a>
+                                                    <a href="javascript:;">宏星</a>
+                                                    <a href="javascript:;">优乐恩</a>
+                                                    <a href="javascript:;">乐高LEGO</a>
+                                                    <a href="javascript:;">帕克伦</a>
+                                                    <a href="javascript:;">沃贝尔</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                    
+                                            </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;">
+                                            <img src="images/1449194909.jpg" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;">
+                                            <img src="images/1454052194.jpg" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li><li>
+                                <div class="cate-tag">
+                                    <div class="first_menu"><a href="javascript:;" ><span class="icon_7 fl"></span>车床寝具<i class="arrow_right"></i></a> </div>
+                                </div>
+                                <div class="list-item ">
+                                    <div class="itemleft">
+                                        <dl>
+                                                <dt>童车童床</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >婴儿推车</a>
+                                                    <a href="javascript:;" >三轮车</a>
+                                                    <a href="javascript:;" >学步车</a>
+                                                    <a href="javascript:;" >自行车</a>
+                                                    <a href="javascript:;" >扭扭车</a>
+                                                    <a href="javascript:;" >滑板车</a>
+                                                    <a href="javascript:;" >餐椅/摇椅</a>
+                                                    <a href="javascript:;" >婴儿床</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>安全座椅</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >安全座椅</a><a href="javascript:;" >提篮式</a>                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>寝具</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >隔尿垫</a>
+                                                    <a href="javascript:;" >床围/床垫</a>
+                                                    <a href="javascript:;" >睡袋/抱被</a>
+                                                    <a href="javascript:;" >凉席/蚊帐</a>
+                                                    <a href="javascript:;" >枕头</a>
+                                                    <a href="javascript:;" >寝具礼盒</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        <dl>
+                                                <dt>热卖品牌</dt>
+                                                <dd>
+                                                    <a href="javascript:;">迪士尼宝宝Disney baby</a>
+                                                    <a href="javascript:;">阿兰贝尔</a>
+                                                    <a href="javascript:;">良良</a>
+                                                    <a href="javascript:;">贝儿乐</a>
+                                                    <a href="javascript:;">心适贝贝</a>
+                                                    <a href="javascript:;">威尔贝鲁wellber</a>
+                                                    <a href="javascript:;">POLY</a>
+                                                    <a href="javascript:;">爱音AING</a>
+                                                    <a href="javascript:;">帛琦Pouch</a>
+                                                    <a href="javascript:;">宝贝第一Babyfirst</a>
+                                                    <a href="javascript:;">宝贝第一</a>
+                                                    <a href="javascript:;">世纪宝贝babyhood</a>
+                                                    <a href="javascript:;">康贝Combi</a>
+                                                    <a href="javascript:;">小龙哈彼Happy dino</a>
+                                                    <a href="javascript:;">乐贝</a>
+                                                    <a href="javascript:;">好孩子goodbaby</a>
+                                                    <a href="javascript:;">斯塔瑞</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>
+                                            </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;">
+                                            <img src="images/1449194756.jpg" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;">
+                                            <img src="images/1464752773.jpg" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li><li>
+                                <div class="cate-tag">
+                                    <div class="first_menu"><a href="javascript:;" ><span class="icon_8 fl"></span>婴儿服饰<i class="arrow_right"></i></a> </div>
+                                </div>
+                                <div class="list-item ">
+                                    <div class="itemleft">
+                                        <dl>
+                                                <dt>婴儿外出服</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >上衣</a>
+                                                    <a href="javascript:;" >裤子</a>
+                                                    <a href="javascript:;" >连体衣</a>
+                                                    <a href="javascript:;" >套装</a>
+                                                    <a href="javascript:;" >食饭衣/饭兜</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>婴儿内衣</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >内裤</a>
+                                                    <a href="javascript:;" >上衣</a>
+                                                    <a href="javascript:;" >裤子</a>
+                                                    <a href="javascript:;" >套装</a>
+                                                    <a href="javascript:;" >连体衣</a>
+                                                    <a href="javascript:;" >肚兜</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>婴儿鞋帽袜</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >尿布裤/尿布</a>
+                                                    <a href="javascript:;" >学步鞋/婴儿鞋</a>
+                                                    <a href="javascript:;" >机能鞋</a>
+                                                    <a href="javascript:;" >袜子/手脚套</a>
+                                                    <a href="javascript:;" >帽子</a>
+                                                    <a href="javascript:;" >口水巾/吸汗巾</a>
+                                                    <a href="javascript:;" >围嘴/肚围</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>婴儿礼盒</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >内衣礼盒</a>
+                                                    <a href="javascript:;" >毛毯礼盒</a>
+                                                    <a href="javascript:;" >浴巾礼盒</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        
+                                            <dl>
+                                                <dt>热卖品牌</dt>
+                                                <dd>
+                                                    <a href="javascript:;">盛哲卡</a>
+                                                    <a href="javascript:;">丽婴十八坊</a>
+                                                    <a href="javascript:;">小米米minimoto</a>
+                                                    <a href="javascript:;">威尔贝鲁wellber</a>
+                                                    <a href="javascript:;">贝斯兰琪BESLUCK</a>
+                                                    <a href="javascript:;">棉扣儿CottonButton</a>
+                                                    <a href="javascript:;">迪士尼宝宝Disney baby</a>
+                                                    <a href="javascript:;">田园鼠</a>
+                                                    <a href="javascript:;">优贝儿UBR</a>
+                                                    <a href="javascript:;">绵心</a>
+                                                    <a href="javascript:;">凯蒂猫HelloKitty</a>
+                                                    <a href="javascript:;">贝儿乐</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                    
+                                            </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;">
+                                            <img src="images/1464753097.jpg" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;">
+                                            <img src="images/1464752887.jpg" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li><li>
+                                <div class="cate-tag">
+                                    <div class="first_menu"><a href="javascript:;" ><span class="icon_9 fl"></span>美食专区<i class="arrow_right"></i></a> </div>
+                                </div>
+                                <div class="list-item ">
+                                    <div class="itemleft">
+                                        <dl>
+                                                <dt>休闲食品</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >坚果炒货</a><a href="javascript:;" >休闲零食</a><a href="javascript:;" >糖果/巧克力</a><a href="javascript:;" >肉干果脯</a><div class="clear"></div>
+                                                </dd>
+                                        </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>饮料冲调</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >牛奶乳品</a><a href="javascript:;" >休闲冲饮</a><a href="javascript:;" >饮料</a><div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>方便速食</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >佐餐食品</a><a href="javascript:;" >方便食品</a><div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>成人保健</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >保健食品</a><div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        <dl>
+                                                <dt>热卖品牌</dt>
+                                                <dd>
+                                                    <a href="javascript:;nk">尚可诗</a>
+                                                    <a href="javascript:;">乐鲜</a>
+                                                    <a href="javascript:;">托马斯Thomas</a>
+                                                    <a href="javascript:;">旺旺贝比玛玛</a>
+                                                    <a href="javascript:;">西诺贝</a>
+                                                    <a href="javascript:;">金高</a>
+                                                    <a href="javascript:;">宝噜噜</a>
+                                                    <a href="javascript:;">金晔</a>
+                                                    <a href="javascript:;">海地村</a>
+                                                    <a href="javascript:;">优格曼Dremz</a>
+                                                    <a href="javascript:;">嘉宝Gerber</a>
+                                                    <a href="javascript:;">康贝多维</a>
+                                                    <a href="javascript:;">深水湾</a>
+                                                    <a href="javascript:;">新农哥</a>
+                                                    <a href="javascript:;">德菲丝Truffles</a>
+                                                    <a href="javascript:;">海太</a>
+                                                    <a href="javascript:;">韩美禾</a>
+                                                    <a href="javascript:;">宏亚</a>
+                                                    <a href="javascript:;">乐天</a>
+                                                    <a href="javascript:;">雀巢Nestle</a>
+                                                    <a href="javascript:;">Homimi</a>
+                                                    <a href="javascript:;">好丽友</a>
+                                                    <a href="javascript:;">Melland国际</a>
+                                                    <a href="javascript:;">九日</a>
+                                                    <a href="javascript:;">Woolworths</a>
+                                                    <a href="javascript:;">coles</a>
+                                                    <a href="javascript:;">德运Devondale</a>
+                                                    <a href="javascript:;">御园枣花香</a>
+                                                    <a href="javascript:;">海玉田</a>
+                                                    <a href="javascript:;">一果十品</a>
+                                                    <a href="javascript:;">农心</a> 
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                    </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;">
+                                            <img src="images/1461916246.jpg" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;">
+                                            <img src="images/1458014082.jpg" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li><li>
+                                <div class="cate-tag">
+                                    <div class="first_menu"><a href="javascript:;" ><span class="icon_10 fl"></span>美妆日用<i class="arrow_right"></i></a> </div>
+                                </div>
+                                <div class="list-item ">
+                                    <div class="itemleft">
+                                        <dl>
+                                                <dt>护肤洁面</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >卸妆/洁面</a>
+                                                    <a href="javascript:;" >化妆水/乳液</a>
+                                                    <a href="javascript:;" >面霜/精华</a>
+                                                    <a href="javascript:;" >面膜</a>
+                                                    <a href="javascript:;" >眼部护理</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>彩妆美容</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >遮瑕底妆</a>
+                                                    <a href="javascript:;" >防晒</a>
+                                                    <a href="javascript:;" >眼部妆容</a>
+                                                    <a href="javascript:;" >唇妆</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>日常护理</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >洗发/护发</a>
+                                                    <a href="javascript:;" >沐浴/润肤</a>
+                                                    <a href="javascript:;" >口腔护理</a>
+                                                    <a href="javascript:;" >手足护理</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>女性护理</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >卫生巾</a>
+                                                    <a href="javascript:;" >卫生护垫</a>
+                                                    <a href="javascript:;" >身体护理</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>清洁用品</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >纸品湿巾</a>
+                                                    <a href="javascript:;" >衣物清洁</a>
+                                                    <a href="javascript:;" >家居厨卫</a>
+                                                    <a href="javascript:;" >驱虫用品</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>成人用品</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >安全避孕</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div><dl>
+                                                <dt>医护用品</dt>
+                                                <dd>
+                                                    <a href="javascript:;" >口罩</a>
+
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                        
+                                            <dl>
+                                                <dt>热卖品牌</dt>
+                                                <dd>
+                                                    <a href="javascript:;">高洁丝kotex</a>
+                                                    <a href="javascript:;">苏菲</a>
+                                                    <a href="javascript:;">花王KAO</a>
+                                                    <a href="javascript:;">护舒宝</a>
+                                                    <a href="javascript:;">泉林本色</a>
+                                                    <a href="javascript:;">维达Vinda</a>
+                                                    <a href="javascript:;">清风</a>
+                                                    <a href="javascript:;">心相印</a>
+                                                    <a href="javascript:;">洁云</a>
+                                                    <a href="javascript:;">蓝月亮</a>
+                                                    <a href="javascript:;">汰渍</a>
+                                                    <a href="javascript:;">碧浪</a>
+                                                    <a href="javascript:;">狮王LION</a>
+                                                    <a href="javascript:;">美乐VIDA</a>
+                                                    <a href="javascript:;">雕牌</a>
+                                                    <a href="javascript:;">超能</a>
+                                                    <a href="javascript:;">妙洁</a>
+                                                    <a href="javascript:;">威猛先生</a>
+                                                    <a href="javascript:;">Bb laboratories</a>
+                                                    <a href="javascript:;">巴黎欧莱雅L‘OREAL PARIS</a>
+                                                    <a href="javascript:;">美宝莲Maybelline</a>
+                                                    <a href="javascript:;">曼秀雷敦Mentholatum</a>
+                                                    <a href="javascript:;">海飞丝</a>
+                                                    <a href="javascript:;">清扬</a>
+                                                    <a href="javascript:;">玉兰油OLAY</a>
+                                                    <div class="clear"></div>
+                                                </dd>
+                                            </dl>
+                                            <div class="clear"></div>                                    </div>
+                                    <div class="itemright">
+                                        <a href="javascript:;">
+                                            <img src="images/1458014039.jpg" alt="速普母婴活动展示一" /> </a>
+                                        <a href="javascript:;">
+                                            <img src="images/1461916731.jpg" alt="速普母婴活动展示二" /> </a>
+                                    </div>
+                                </div>
+                            </li>                    
+                        </ul>
+                </div>
+            </div>
+            <div class="navCon-menu fl">
+                <ul>
+                    <li><a href="javascript:;">限时特卖</a> </li>
+                    <li><a href="javascript:;">白菜专区</a> </li>
+                    <li id="supuy_oversea"><a href="javascript:;">全球购</a> </li>
+                    <li><a href="javascript:;" target="_blank">手机客户端<i></i></a> </li>
+                    <li><a href="javascript:;" target="_blank" id="online-service">在线客服</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 轮播图部分 -->
+<div id="banner_tabs" class="new_slider">
+    <ul class="slides">
+        <li>
+            <a title="青岛保税仓活动" target="_blank" href="javascript:;" title="青岛保税仓活动" >
+            <img width="1920" height="482" alt="青岛保税仓活动" title="青岛保税仓活动" src="images/1542250687604.jpg">
+            </a>
+        </li>
+        <li>
+            <a title="10.1保税区直发" target="_blank" href="javascript:;" title="10.1保税区直发" >
+            <img width="1920" height="482" alt="10.1保税区直发" title="10.1保税区直发" src="images/1538012550965.jpg">
+            </a>
+        </li>    
+    </ul>
+    <ul class="flex-direction-nav">
+        <li><a class="flex-prev" href="javascript:;"></a></li>
+        <li><a class="flex-next" href="javascript:;"></a></li>
+    </ul>
+    <ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+        <li class="b_active"><a></a></li><li><a></a></li>    </ol>
+</div>
+<!-- 商品区域 -->
+<div class="main home">
+    <div class="wrap">
+        <div class="home_title con" id="tsale">
+        <!-- 整点抢购 -->
+            <div class="home_t_intro fl">
+                <span style="color:000;">整点抢购</span><span style="margin-left: 20px;color: javascript:;999999;font-size: 14px;">当日整点抢购，全网最低</span>
+            </div>
+            <div class="fr" style="font-size: 14px;"><a href="/index/preview.html" style="color: javascript:;d41d55;">明日抢购&nbsp;&nbsp;></a></div>
+            <div class="clear"></div>
+        </div>
+        <div class="home_floor con">
+            <div class="snapUp">
+                <div class="time-bar">
+                    <div class="clock-con">
+                        距本场结束:<span class="houn">00</span>时<span class="min">0</span>分<span class="sec">0</span>秒
+                    </div>
+                    <ul>
+                        <li id="tab10" point="10" class="effect-li">
+                            <div class="state">
+                                <img src="images/state.png" alt="" />
+                            </div>
+                            <div class="time-list">10:00</div>
+                        </li>
+                        <li id="tab14" point="14" class="effect-li">
+                            <div class="state">
+                                <img src="images/state.png" alt="" />
+                            </div>
+                            <div class="time-list">14:00</div>
+                        </li>
+                        <li id="tab20" point="20" class="effect-li">
+                            <div class="state">
+                                <img src="images/state.png" alt="" />
+                            </div>
+                            <div class="time-list">20:00</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom_rec_goodbox home_sprice" id="hsprice_box">
+                <div class="bottom_rec_pre">
+                </div>
+                <div class="bottom_rec_goodul">
+                    <div class="bottom_rec_goodpos">
+                        <ul class="hot_li">
+                                 
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom_rec_next">
+            </div>
+        </div>
+    </div>
+    <!--精品特卖-->
+    <div class="home_floor con">
+        <div class="home_title" id="ssale">
+            <div class="home_t_intro fl">
+                <a href="javascript:;" target="_blank">限时特卖</a><span style="margin-left: 20px;color: javascript:;999999;font-size: 14px;">品牌汇集，一站购齐</span>
+            </div>
+            <div class="fr" style="font-size: 14px;"><a href="javascript:;" style="color: javascript:;d41d55;">更多特卖&nbsp;&nbsp;></a></div>
+            <div class="clear"></div>
+        </div>
+        <div class="floor_box home_ssale">
+            <ul>
+                <li>
+                    <a href="javascript:;" target="_blank">
+                        <div class="grid">
+                            <figure class="effect-zoe">
+                                <img src="images/huawang.png" height="234"  width="589px"/>
+                                <figcaption class="hide">
+                                    <h1><img src="images/1545025673253.jpg"  class="fl"> </h1>
+                                    <h2><span class="fl" style="line-height: 60px;">花王&大王联合特卖</span></h2>
+                                    <p class="icon-links">
+                                        <span style="line-height: 60px;">2包立减30</span>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <div class="deadline_time" id="TimeCounter_1" end="2019/12/25 10:00:00">
+                                还有：<span class="day">00</span>天<span class="hour">00</span>时<span class="minute">00</span>分<span class="second">00</span>秒结束</div>
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="javascript:;" target="_blank">
+                        <div class="grid">
+                            <figure class="effect-zoe">
+                                <img src="images/baodeshi.png" height="234"width="588px"/>
+                                <figcaption>
+                                    <h1><img src="images/1545381684033.jpg" alt="宝得适特卖专场品牌标识" style="height: 52px;width: auto;margin-top: 2px;" class="fl"> </h1>
+                                    <h2><span class="fl" style="line-height: 60px;">宝得适特卖专场</span></h2>
+                                    <p class="icon-links">
+                                        <span style="line-height: 60px;">用券XK1FCB6FX4立减1000元</span>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <div class="deadline_time" id="TimeCounter_2" end="2019/12/31 10:00:00">
+                                还有：<span class="day">00</span>天<span class="hour">00</span>时<span class="minute">00</span>分<span class="second">00</span>秒结束</div>
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="javascript:;" target="_blank">
+                        <div class="grid">
+                            <figure class="effect-zoe">
+                                <img src="images/mamibao.png" data-echo="http://img30.supumall.com/img/1539677747392" alt="日本anello妈咪包专场特卖" width="589px"/>
+                                <figcaption>
+                                    <h1><img src="images/1539677747111.jpg"  style="height: 52px;width: auto;margin-top: 2px;" class="fl"> </h1>
+                                    <h2><span class="fl" style="line-height: 60px;">日本anello妈咪包专场特卖</span></h2>
+                                    <p class="icon-links">
+                                        <span style="line-height: 60px;">新品上线 下单立减30</span>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <div class="deadline_time" id="TimeCounter_3" end="2019/12/25 10:00:00">
+                                还有：<span class="day">00</span>天<span class="hour">00</span>时<span class="minute">00</span>分<span class="second">00</span>秒结束</div>
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="javascript:;" target="_blank">
+                        <div class="grid">
+                            <figure class="effect-zoe">
+                                <img src="images/dazuihou.png" height="237"  width="588px"/>
+                                <figcaption>
+                                    <h1><img src="images/1542089298270.jpg" style="height: 52px;width: auto;margin-top: 2px;" class="fl"> </h1>
+                                    <h2><span class="fl" style="line-height: 60px;">美国大嘴猴保温杯专场</span></h2>
+                                    <p class="icon-links">
+                                        <span style="line-height: 60px;">下单立减30 温暖秋冬</span>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <div class="deadline_time" id="TimeCounter_4" end="2019/12/25 10:00:00">
+                                还有：<span class="day">00</span>天<span class="hour">00</span>时<span class="minute">00</span>分<span class="second">00</span>秒结束</div>
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="javascript:;" target="_blank">
+                        <div class="grid">
+                            <figure class="effect-zoe">
+                                <img src="images/baowenbei.png" height="237"  width="589px"/>
+                                <figcaption>
+                                    <h1><img src="images/1545375223576.jpg" alt="若彼特保温杯特卖品牌标识" style="height: 52px;width: auto;margin-top: 2px;" class="fl"> </h1>
+                                    <h2><span class="fl" style="line-height: 60px;">若彼特保温杯特卖</span></h2>
+                                    <p class="icon-links">
+                                        <span style="line-height: 60px;">下单立减20</span>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <div class="deadline_time" id="TimeCounter_5" end="2019/12/28 10:00:00">
+                                还有：<span class="day">00</span>天<span class="hour">00</span>时<span class="minute">00</span>分<span class="second">00</span>秒结束</div>
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="javascript:;" target="_blank">
+                        <div class="grid">
+                            <figure class="effect-zoe">
+                                <img src="images/hengshi.png" height="237"  width="588px"/>
+                                <figcaption>
+                                    <h1><img src="images/1539130508747.jpg"  style="height: 52px;width: auto;margin-top: 2px;" class="fl"> </h1>
+                                    <h2><span class="fl" style="line-height: 60px;">亨氏辅食专场</span></h2>
+                                    <p class="icon-links">
+                                        <span style="line-height: 60px;">满99立减30</span>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <div class="deadline_time" id="TimeCounter_6" end="2019/12/25 10:00:00">
+                                还有：<span class="day">00</span>天<span class="hour">00</span>时<span class="minute">00</span>分<span class="second">00</span>秒结束</div>
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="javascript:;" target="_blank">
+                        <div class="grid">
+                            <figure class="effect-zoe">
+                                <img src="images/baoning.png" height="236"  width="589px"/>
+                                <figcaption>
+                                    <h1><img src="images/1543383010699.jpg" a style="height: 52px;width: auto;margin-top: 2px;" class="fl"> </h1>
+                                    <h2><span class="fl" style="line-height: 60px;">保宁洗护好物底价特惠</span></h2>
+                                    <p class="icon-links">
+                                        <span style="line-height: 60px;">满99立减20</span>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <div class="deadline_time" id="TimeCounter_7" end="2019/12/25 10:00:00">
+                                还有：<span class="day">00</span>天<span class="hour">00</span>时<span class="minute">00</span>分<span class="second">00</span>秒结束</div>
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="javascript:;" target="_blank">
+                        <div class="grid">
+                            <figure class="effect-zoe">
+                                <img src="images/qizhi.jpg" height="237" width="594px"/>
+                                <figcaption>
+                                    <h1><img src="images/1542089533223.jpg" alt="LALA布玩布书专场品牌标识" style="height: 52px;width: auto;margin-top: 2px;" class="fl"> </h1>
+                                    <h2><span class="fl" style="line-height: 60px;">LALA布玩布书专场</span></h2>
+                                    <p class="icon-links">
+                                        <span style="line-height: 60px;">低至4.9元开抢</span>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <div class="deadline_time" id="TimeCounter_8" end="2019/12/25 10:00:00">
+                                还有：<span class="day">00</span>天<span class="hour">00</span>时<span class="minute">00</span>分<span class="second">00</span>秒结束</div>
+                        </div>
+                    </a>
+                </li>            
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    
+    <div class="home_floor con">
+        <div class="home_floorbox" id="home-tab">
+            <!--tab1-->
+            <div class="home_tabbox show">
+                <!--1F-->
+                <div class="floor_box_content">
+                        <div class="floor_nav">
+                            <div class="floor_name">
+                                <img class="lazy" src="images/floor1.png" width="100%">
+                                <span>妈妈专区</span>
+                            </div>
+                            <div class="floor_nav_list">
+                                <ul>
+                                    <li class="hot1" >
+                                        <a href="javascript:;">束腹收腹</a></li>
+                                    <li>
+                                        <a href="javascript:;">卫生护理</a></li>
+                                    <li>
+                                        <a href="javascript:;">乳头保护</a></li>
+                                    <li>
+                                        <a href="/Goods/index/pid/1253" >吸奶装置</a>
+                                    </li>
+                                    <li class="hot1" >
+                                        <a href="javascript:;">溢奶防护</a></li>
+                                    <li>
+                                        <a href="javascript:;" >内裤</a></li><li  >
+                                        <a href="javascript:;" >抱婴腰凳</a></li>
+                                    <li>
+                                        <a href="javascript:;" >婴儿背带</a>
+                                    </li><li>
+                                        <a href="javascript:;" >面部护理</a></li>
+                                    <li class="hot1" >
+                                        <a href="javascript:;" >DHA</a>
+                                    </li>                                
+                                </ul>
+                                <div class="flexslider" style="width:195px;height: 193px">
+                                    <ul class="slides">
+                                        <li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442564911.jpg"   height="48px">
+                                                    </a><a href="javascript:;" >
+                                                        <img src="images/1446106141.jpg"  height="48px">
+                                                    </a><a href="javascript:;" >
+                                                        <img src="images/1442565878.jpg"  height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442565998.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442566273.jpg" height="48px">
+                                                    </a><a href="javascript:;" >
+                                                        <img src="images/1442565372.jpg"   height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;" >
+                                                        <img src="images/1442565860.jpg"   height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442565117.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446117886.jpg"   height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1446106284.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446106485.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442565283.jpg"  height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442565908.jpg"   height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442566043.jpg"   height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442566523.jpg"   height="48px">
+                                                    </a>                                            </li>                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home_floor_con">
+                            <div class="floor_left fl effect-julia">
+                                <a href="javascript:;" >
+                                    <img class="lazy" src="images/mom.png"  />
+                                    </a>                            </div>
+                            <div class="floor_right fl">
+                                <div class="floor_r_top">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    爱乐爱                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    乐享SPA般安心愉悦                                                </div>
+                                                <img class="lazy" src="images/mom-1.jpg"  width="162" height="168" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    佰澳朗德                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    孕妇专用专业营养                                                </div>
+                                                <img class="lazy" src="images/mom-2.jpg"  />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    百洛油                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    数万产后妈妈的选择                                                </div>
+                                                <img class="lazy" src="images/mom-3.jpg"  width="157" height="162" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="floor_r_bottom">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    添香                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    孕期也要美美哒                                                </div>
+                                                <img class="lazy" src="images/mom-4.jpg"  width="102" height="102" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="/javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    红色小象                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    尽情舒享为人母的喜悦                                                </div>
+                                                <img class="lazy" src="images/mom-5.jpg"  width="150" height="96" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    新贝                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    让母乳喂养更自然                                                </div>
+                                                <img class="lazy" src="images/mom-6.jpg"  width="102" height="102" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div><div class="floor_box_content">
+                        <div class="floor_nav">
+                            <div class="floor_name">
+                                <img class="lazy" src="images/floor2.png" width="100%">
+                                <span>奶粉辅食</span>
+                            </div>
+                            <div class="floor_nav_list">
+                                <ul>
+                                    <li  ><a href="javascript:;">孕产妇奶粉</a></li><li  ><a href="javascript:;">1段</a></li><li  ><a href="javascript:;">2段</a></li><li class="hot2" ><a href="javascript:;">3段</a></li><li  ><a href="javascript:;">特殊配方</a></li><li  ><a href="javascript:;">宝宝零食</a></li><li class="hot2" ><a href="javascript:;">米粉/菜粉</a></li><li  ><a href="javascript:;">面条/粥 </a></li><li class="hot2" ><a href="javascript:;">钙铁锌/维生素</a></li><li  ><a href="javascript:;">清火/开胃</a></li>                                
+                                </ul>
+                                <div class="flexslider"  style="width:195px;height: 193px">
+                                    <ul class="slides">
+                                        <li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442564803.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1447813943.jpg"  height="48px">
+                                                    </a><a href="/Goodsjavascript:;">
+                                                        <img src="images/1446105961.jpg"  height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442565630.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442564928.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442566240.jpg" height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442566289.jpg"   height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442566927.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442564759.jpg" height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442565220.jpg"   height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442565646.jpg"   height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446106427.jpg"  height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;k">
+                                                        <img src="images/1442564830.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442567021.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442565379.jpg"   height="48px">
+                                                    </a>                                            </li>                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home_floor_con">
+                            <div class="floor_left fl effect-julia">
+                                <a href="javascript:;" >
+                                    <img class="lazy" src="images/naifen.png" />
+                                    </a>                            </div>
+                            <div class="floor_right fl">
+                                <div class="floor_r_top">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="/javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    Cow & Gate英国牛栏                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    多方位营养助力成长                                                </div>
+                                                <img class="lazy" src="images/naifen-1.jpg"  width="160" height="162" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;" target="_blank">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    A2                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    放心奶源呵护你                                                </div>
+                                                <img class="lazy" src="images/naifen-2.jpg"  width="165" height="165" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    爱他美金装                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    萌宝放心口粮                                                </div>
+                                                <img class="lazy" src="images/naifen-3.jpg" width="165" height="165" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="floor_r_bottom">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="/Goods/index/pid/1090/brand/嘉宝Gerber/searchkey/嘉宝" target="_blank">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    美国嘉宝                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    宝宝爱吃的                                                </div>
+                                                <img class="lazy" src="images/naifen-4.jpg"  width="102" height="102" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    佰澳朗德                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    宝宝的营养大师                                                </div>
+                                                <img class="lazy" src="images/naifen-5.jpg"  width="102" height="102" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    亨氏                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    大品牌，更放心                                                </div>
+                                                <img class="lazy" src="images/naifen-6.jpg"  width="102" height="102" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div><div class="floor_box_content">
+                        <div class="floor_nav">
+                            <div class="floor_name">
+                                <img class="lazy" src="images/floor3.png" width="100%">
+                                <span>用品尿裤</span>
+                            </div>
+                            <div class="floor_nav_list">
+                                <ul>
+                                    <li class="hot3" ><a href="javascript:;">奶瓶奶嘴</a></li><li  ><a href="javascript:;">水杯/水壶</a></li><li  ><a href="/javascript:;">日常护理</a></li><li  ><a href="/javascript:;">宝宝洗浴</a></li><li class="hot3" ><a href="javascript:;">婴儿尿裤</a></li><li  ><a href="javascript:;">尿片型</a></li><li  ><a href="/javascript:;">湿巾</a></li><li  ><a href="javascript:;">安全座椅</a></li><li class="hot3" ><a href="/javascript:;">婴儿推车</a></li><li class="hot3" ><a href="javascript:;">睡袋/抱被</a></li>                                </ul>
+                                <div class="flexslider"  style="width:195px;height: 193px">
+                                    <ul class="slides">
+                                        <li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442564882.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442566043.jpg" t height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442566248.jpg"  height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442566523.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442565915.jpg"  height="48px">
+                                                    </a><a href="Gojavascript:;">
+                                                        <img src="images/1442565540.jpg"  height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442567296.jpg"  height="48px">
+                                                    </a><a href="javascript:;" target="_blank">
+                                                        <img src="images/1442565386.jpg" t  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442565783.jpg"   height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442564723.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442565898.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442564642.jpg"  height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442566431.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446105925.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446105830.jpg"   height="48px">
+                                                    </a>                                            </li>                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home_floor_con">
+                            <div class="floor_left fl effect-julia">
+                                <a href="javascript:;" >
+                                    <img class="lazy" src="images/zhinaiku.png" />
+                                    </a>                            </div>
+                            <div class="floor_right fl">
+                                <div class="floor_r_top">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="/javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    大王纸尿裤                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    柔软舒适新体验                                                </div>
+                                                <img class="lazy" src="images/zhiniaoku-1.jpg"  width="165" height="165" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;" target="_blank">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    花王纸尿裤                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    更体贴宝宝肌肤                                                </div>
+                                                <img class="lazy" src="images/zhiniaoku-2.jpg"  width="165" height="165" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    飞利浦新安怡                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    母乳般的自然感受                                                </div>
+                                                <img class="lazy" src="images/zhiniaoku-3.jpg" width="165" height="165" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="floor_r_bottom">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    利其尔                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    人性化设计 安全喂养                                                </div>
+                                                <img class="lazy" src="images/zhiniaoku-4.jpg"  width="102" height="102" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    贝亲                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    喂养选贝亲，放心的品牌                                                </div>
+                                                <img class="lazy" src="images/zhiniaoku-5.jpg" width="102" height="102" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    露安适                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    健康呵护薄皮肤                                                </div>
+                                                <img class="lazy" src="images/zhiniaolu-6.jpg"  width="102" height="102" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div><div class="floor_box_content">
+                        <div class="floor_nav">
+                            <div class="floor_name">
+                                <img class="lazy" src="images/floor4.png" width="100%">
+                                <span>玩具服饰</span>
+                            </div>
+                            <div class="floor_nav_list">
+                                <ul>
+                                    <li class="hot4" ><a href="javascript:;">床铃/摇铃</a></li><li class="hot4" ><a href="javascript:;">早教启智</a></li><li  ><a href="javascript:;">立体拼插</a></li><li  ><a href="javascript:;">沙滩/戏水</a></li><li  ><a href="javascript:;">婴幼儿图书</a></li><li  ><a href="javascript:;">连体衣</a></li><li class="hot4" ><a href="javascript:;">上衣</a></li><li  ><a href="javascript:;">裤子</a></li><li  ><a href="javascript:;">袜子/手脚套</a></li><li  ><a href="javascript:;">围嘴/肚围</a></li>                                </ul>
+                                <div class="flexslider"  style="width:195px;height: 193px">
+                                    <ul class="slides">
+                                        <li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442565730.jpg"   height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442566449.jpg"   height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442565470.jpg"  height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442566502.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446105874.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442564588.jpg"   height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1446106111.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442564904.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446105668.jpg" height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1442566093.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442566431.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446105798.jpg"   height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1446106545.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446106505.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1442565024.jpg" height="48px">
+                                                    </a>                                            </li>                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home_floor_con">
+                            <div class="floor_left fl effect-julia">
+                                <a href="javascript:;" >
+                                    <img class="lazy" src="images/wanju.png" />
+                                    </a>                            </div>
+                            <div class="floor_right fl">
+                                <div class="floor_r_top">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    贝恩施                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    宝宝的好玩伴                                                </div>
+                                                <img class="lazy" src="images/wanju-1.jpg"  width="165" height="165" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    auby澳贝 梦想小王国                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    宝宝的小王国                                                </div>
+                                                <img class="lazy" src="images/wanju-2.jpg" width="165" height="165" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    木玩世家                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    激发宝宝无限想象力                                                </div>
+                                                <img class="lazy" src="images/wanju-3.jpg"width="165" height="165" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="floor_r_bottom">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    良良                                                 </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    给宝宝舒心睡眠                                                </div>
+                                                <img class="lazy" src="images/wanju-4.jpg" d width="102" height="102" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    绵心 竹纤维浴巾                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    绿色天然 柔软亲肤                                                </div>
+                                                <img class="lazy" src="images/wanju-5.jpg"  width="102" height="102" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    小米米                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    宝贝萌萌哒                                                </div>
+                                                <img class="lazy" src="images/wanju-6.jpg"  width="102" height="102" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div><div class="floor_box_content">
+                        <div class="floor_nav">
+                            <div class="floor_name">
+                                <img class="lazy" src="images/floor5.png" width="100%">
+                                <span>美食日用</span>
+                            </div>
+                            <div class="floor_nav_list">
+                                <ul>
+                                    <li  ><a href="javascript:;" >坚果炒货</a></li><li class="hot5" ><a href="/javascript:;">休闲零食</a></li><li  ><a href="javascript:;">糖果/巧克力</a></li><li  ><a href="javascript:;">肉干果脯</a></li><li  ><a href="javascript:;">休闲冲饮</a></li><li  ><a href="javascript:;">护肤洁面</a></li><li  ><a href="javascript:;">彩妆美容</a></li><li class="hot5" ><a href="/javascript:;">女性护理</a></li><li  ><a href="javascript:;">日常护理</a></li><li class="hot5" ><a href="javascript:;">清洁用品</a></li>                                </ul>
+                                <div class="flexslider"  style="width:195px;height: 193px">
+                                    <ul class="slides">
+                                        <li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1451553151.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1450234283.jpg" title="韩美禾" alt="韩美禾"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1449645600.jpg"height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1450055334.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1450254474.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1449887411.jpg" t height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1446106021.jpg"   height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1450333143.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1449813441.jpg" height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1449473499.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1450074506.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446106188.jpg" height="48px">
+                                                    </a>                                            </li><li>
+                                                <a href="javascript:;">
+                                                        <img src="images/1446106517.jpg" height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446106089.jpg"  height="48px">
+                                                    </a><a href="javascript:;">
+                                                        <img src="images/1446106174.jpg"  height="48px">
+                                                    </a>                                            </li>                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home_floor_con">
+                            <div class="floor_left fl effect-julia">
+                                <a href="javascript:;" >
+                                    <img class="lazy" src="images/riyong.png"/>
+                                    </a>                            </div>
+                            <div class="floor_right fl">
+                                <div class="floor_r_top">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    妙洁                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    居家好帮手                                                </div>
+                                                <img class="lazy" src="images/riyong-1.jpg" dwidth="165" height="165" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    SANADA精工                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    居家好助手                                                </div>
+                                                <img class="lazy" src="images/riyong-2.jpg"  width="165" height="165" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    尤妮佳化妆棉                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    卸妆轻松无忧                                                </div>
+                                                <img class="lazy" src="images/riyong-3.jpg"  width="165" height="165" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="floor_r_bottom">
+                                    <ul>
+                                        <li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    德国凌美                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    质感书写体验                                                </div>
+                                                <img class="lazy" src="images/riyong-4.jpg" width="102" height="102" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    澳佳宝                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    澳洲品质营养品                                                </div>
+                                                <img class="lazy" src="images/riyong-5.jpg" d width="102" height="102" />
+                                                </a>
+                                            </li><li class="effect-jay">
+                                                <a href="javascript:;">
+                                                <div class="floor_gooddes1 ellipsis">
+                                                    swisse                                                </div>
+                                                <div class="floor_gooddes2 ellipsis">
+                                                    健康呵护每一天                                                </div>
+                                                <img class="lazy" src="images/riyong-6.jpg" width="102" height="102" />
+                                                </a>
+                                            </li>                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--母婴生活汇-->
+    <div class="home_floor muying_content">
+        <div class="home_title con" id="life">
+            <div class="home_t_intro fl">
+                <span style="color: javascript:;000;">母婴生活汇</span><span style="margin-left: 20px;color: javascript:;999999;font-size: 14px;">品牌汇集，一站购齐</span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <ul class="muying_list con">
+            <li style="margin-right: 13px;"><a href="javascript:;" target="_blank"><img class="lazy" src="images/qinzihuodong.png"></a></li>
+            <li style="margin-right: 13px;"><a href="javascript:;" target="_blank"><img class="lazy" src="images/yunmabaobaoxiu.png" alt="孕妈宝宝秀"></a></li>
+            <li><a href="javascript:;" target="_blank"><img class="lazy" src="images/yuerbaibaoxiang.png"  alt="育儿百宝箱"></a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+<!-- 底部 -->
+<div class="clear"></div>
+<div id="footer">
+    <div class="supuy_cultrue">
+        <div class="wrap con">
+            <div class="cultrue_img fl">
+                <img src="images/point3.png" />
+            </div>
+            <div class="cultrue_img fl">
+                <img src="images/point4.png"/>
+            </div>
+            <div class="cultrue_img fl">
+                <img src="images/point1.png" />
+            </div>
+            <div class="cultrue_img fl">
+                <img src="images/point2.png" />
+            </div>
+        </div>
+    </div>
+    <div class="footer_nav">
+        <div class="wrap con">
+            <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>新手指南</h3>
+                </div>
+                <ul>
+                    <li><a href="javascript:;">购物流程</a> </li>
+                    <li><a href="javascript:;">会员介绍</a> </li>
+                    <li><a href="javascript:;">积分制度</a> </li>
+                </ul>
+            </div>
+            <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>物流配送</h3>
+                </div>
+                <ul>
+                    <li><a href="javascript:;">配送服务</a> </li>
+                    <li><a href="javascript:;">验货签收</a> </li>
+                    <li><a href="javascript:;">速普快递</a> </li>
+                </ul>
+            </div>
+            <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>支付方式</h3>
+                </div>
+                <ul>
+                    <li><a href="javascript:;">货到付款</a></li>
+                    <li><a href="javascript:;">在线支付</a></li>
+                    <li><a href="javascript:;">现金账户</a></li>
+                </ul>
+            </div>
+            <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>售后服务</h3>
+                </div>
+                <ul>
+                    <li><a href="javascript:;">赔偿承诺</a></li>
+                    <li><a href="javascript:;">发票制度</a></li>
+                    <li><a href="javascript:;">退货政策</a></li>
+                </ul>
+            </div>
+            <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>常见问题</h3>
+                </div>
+                <ul>
+                    <li><a href="javascript:;">购物问题</a></li>
+                    <li><a href="javascript:;">账户安全</a></li>
+                </ul>
+            </div>
+            <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>联系我们</h3>
+                </div>
+                <ul>
+                    <li><a href="javascript:;d">联系客服</a></li>
+                    <li><a href="javascript:;d">意见反馈</a></li>
+                    <li><a href="javascript:;">新浪微博</a></li>
+                </ul>
+            </div>
+            <div class="footer_nav_ul fl" style="border: none;">
+                <img src="images/erweima.jpg" alt="微信二维码"/></div>
+        </div>
+    </div>
+    <div class="supuy_info_box">
+        <div class="supuy_info">
+            <ul>
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><a href="javascript:;">人才招聘</a></li>
+                <li><a href="javascript:;">联系我们</a></li>
+                <li><a href="javascript:;" style="border:none;">招商合作</a></li>
+                <li>
+                    <a target="_blank" href="javascript:;">
+                        <img src="images/ghs.png" style="float:left">
+                        <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:javascript:;666666;">
+                            京公网安备 37021202000512号
+                        </p>
+                    </a>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div><a href="javascript:;">Copyright © 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号</a></div>
+        <div class="zizhi">
+            <a href="javascript:;"><img src="images/zhizhao.png" alt="营业执照公示"/></a>
+            <a href="javascript:;"><img src="images/dibu.png"  alt=""></a>
+        </div>
+    </div>
+</div>
+</div>
+        
+<script src="lib/slider.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var bannerSlider = new Slider($('#banner_tabs'), {
+            time: 5000,
+            delay: 400,
+            event: 'hover',
+            auto: true,
+            mode: 'fade',
+            controller: $('#bannerCtrl'),
+            activeControllerCls: 'b_active'
+        });
+        $('#banner_tabs .flex-prev').click(function() {
+            bannerSlider.prev()
+        });
+        $('#banner_tabs .flex-next').click(function() {
+            bannerSlider.next()
+        });
+    })
+</script>
+<script src="lib/jquery.flexslider-min.js"></script>  
+<script type="text/javascript">
+    $(function() {
+        $(".flexslider").flexslider({
+            slideshow:true,
+            slideshowSpeed: 3000, //展示时间间隔ms
+            animationSpeed: 400, //滚动时间ms
+            animation: "slide",
+            animationLoop:true,
+            pauseOnAction: false,
+            directionNav:true
+        });
+    });
+</script>   
+</body>
+</html>

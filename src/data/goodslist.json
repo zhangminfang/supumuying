@@ -1,0 +1,295 @@
+[
+    {
+        "idx": 0,
+        "imgurl": "src/images/qingguang.png",
+        "img": "../images/qingguang.png",
+        "name":"JMsolution肌司研青光海洋珍珠深层补水眼霜40ml",
+        "USD": 99,
+        "SaveUSD": 65,
+        "Redirection": "限时抢购",
+        "shipping-warehouse":"【保税区直发】",
+        "time": "2000-01-01",
+        "hot":true,
+        "specials":false,
+        "bestsellers":false,
+        "new":false
+    },
+    {
+        "idx": 1,
+        "imgurl": "src/images/taiguo.png",
+        "img": "../images/taiguo.png",
+        "name":"【保税区直发】泰国BeautyBuffet牛奶洗面奶*2支",
+        "USD": 129,
+        "SaveUSD": 72,
+        "Redirection": "限时抢购",
+        "shipping-warehouse":"【保税区直发】",
+        "time": "2018-01-02",
+        "hot":true,
+        "specials":false,
+        "bestsellers":false,
+        "new":false
+
+    },
+    {
+       "idx": 2,
+        "imgurl": "src/images/meidihuier.png",
+        "img": "..//images/meidihuier.png",
+        "name":"【保税区直发】MEDIHEAL美迪惠尔可莱丝针剂水库水润爽肤水165ml",
+        "USD": 129,
+        "SaveUSD":79,
+        "shipping-warehouse":"【保税区直发】",
+        "Redirection": "限时抢购",
+        "time": "2061-01-03",
+        "hot":true,
+        "specials":false,
+        "bestsellers":false,
+        "new":false
+    },
+    {
+        "idx": 3,
+        "imgurl": "src/images/yiyun.png", 
+        "img": "../images/yiyun.png",
+        "name":"【保税区直发】依云Evian天然矿泉水喷雾400ml*2支",
+        "USD": 199,
+        "SaveUSD": 92,
+        "shipping-warehouse":"【保税区直发】",
+        "Redirection": "限时抢购",
+        "time": "1999-01-04",
+        "hot":true,
+        "specials":false,
+        "bestsellers":false,
+        "new":false
+
+    },
+    {
+        "idx": 4,
+        "imgurl": "src/images/jm.png",
+        "img": "../images/jm.png",
+        "name": "【保税区直发】JMsolution肌司研爆品面膜4件组合(水光蜂蜜10片/盒+海洋珍珠10片/盒+樱花水光10片/盒+急救补水10片/盒)",
+        "USD": 225,
+        "SaveUSD": 299,
+        "shipping-warehouse":"【保税区直发】",
+        "Redirection": "限时抢购",
+        "time": "1994-01-05",
+        "hot":true,
+        "specials":false,
+        "bestsellers":false,
+        "new":false
+    },
+    {
+        "idx": 5,
+        "img": "src/images/beiqin.jpg",
+        "imgurl": "../images/beiqin.jpg",
+        "name": "Pigeon贝亲孕产妇漱口液猕猴桃味300ml(XA228)",
+        "USD": 35,
+        "SaveUSD": 28,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "满99立减20",
+        "time": "2018-01-19",
+        "hot":false,
+        "specials":true,
+        "bestsellers":false,
+        "new":false
+
+
+    },
+    {
+        "idx": 6,
+        "imgurl": "../images/hulidian.jpg",
+        "img": "src/images/hulidian.jpg",
+        "name": "Pigeon贝亲产褥期护理垫(60*90cm)4片(XA223)",
+        "USD": 35,
+        "SaveUSD": 28.2,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "满99立减20",
+        "time": "2085-02-07",
+         "hot":false,
+        "specials":true,
+        "bestsellers":false,
+        "new":false
+
+    },
+    {
+        "idx": 7,
+        "imgurl": "../images/weishengjin.jpg",
+        "img": "src/images/weishengjin.jpg",
+        "name": "Pigeon贝亲产褥期卫生巾L(18*60cm)6片(XA224)",
+        "USD": 48,
+        "SaveUSD": 36,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "满99立减20",
+        "time": "2011-11-08",
+         "hot":false,
+        "specials":true,
+        "bestsellers":false,
+        "new":false
+
+
+    },
+    {
+        "idx": 8,
+        "imgurl": "../images/weishengjin2.jpg",
+        "img": "src/images/weishengjin2.jpg",
+        "name": "Pigeon贝亲产褥期卫生巾S(8*24cm)20片(XA226)",
+        "USD": 45,
+        "SaveUSD": 35,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "满99立减20",
+        "time": "2048-06-09",
+         "hot":false,
+        "specials":true,
+        "bestsellers":false,
+        "new":false
+
+    },
+    {
+        "idx": 9,
+        "imgurl": "../images/feilipu.jpg",
+        "img": "src/images/feilipu.jpg",
+        "name": "AVENT飞利浦新安怡硅胶乳头保护罩(标准型)2(SCF156/01)",
+        "USD": 69,
+        "SaveUSD": 52.5,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "满99立减20",
+        "time": "2008-01-10",
+         "hot":false,
+        "specials":true,
+        "bestsellers":false,
+        "new":false
+
+    },
+    {
+        "idx": 10,
+        "imgurl": "../images/weishengjin3.jpg",
+        "img": "src/images/weishengjin3.jpg",
+        "name": "Pigeon贝亲产褥期卫生巾M(8*28cm)10片(XA225)",
+        "USD": 33,
+        "SaveUSD": 24.7,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "满99立减20",
+        "time": "2018-04-11",
+         "hot":false,
+        "specials":true,
+        "bestsellers":false,
+        "new":false
+
+    },
+    {
+        "idx": 11,
+        "imgurl": "../images/feilipu.jpg",
+        "img": "src/images/feilipu.jpg",
+        "name": "AVENT飞利浦新安怡乳头保护罩(小号)新品(SCF156/00)",
+        "USD": 69,
+        "SaveUSD": 56,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "满99立减20",
+        "time": "2011-04-12",
+         "hot":false,
+        "specials":true,
+        "bestsellers":false,
+        "new":false
+
+
+    },
+    {
+        "idx": 12,
+        "imgurl": "../images/feilipu.jpg",
+        "img": "src/images/feilipu.jpg",
+        "name": "AVENT飞利浦新安怡24片装超舒柔抛弃式乳垫(SCF154/24)",
+        "USD": 69,
+        "SaveUSD": 39,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "满99立减20",
+        "time": "2002-06-13",
+         "hot":false,
+        "specials":true,
+        "bestsellers":false,
+        "new":false
+
+    },
+    {
+        "idx": 13,
+        "imgurl": "../images/hot-1.jpg",
+        "img": "src/images/hot-1.jpg",
+        "name": " Pigeon贝亲婴儿柔湿巾10片*6(pl133)",
+        "USD": 18,
+        "SaveUSD": 15.9,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "8.8折/",
+        "time": "2001-01-14",
+        "hot":false,
+        "specials":false,
+        "bestsellers":true,
+        "new":false
+
+    },
+    {
+        "idx": 14,
+        "imgurl": "../images/hot-2.jpg",
+        "img": "src/images/hot-2.jpg",
+        "name": "Nutrilon牛栏荷兰奶粉4段800g",
+        "USD": 134,
+        "SaveUSD": 179,
+        "shipping-warehouse":"荷兰直供速普保税仓发货",
+        "Redirection": false,
+        "time": "2018-01-15",
+        "hot":false,
+        "specials":false,
+        "bestsellers":true,
+        "new":false
+
+
+    },
+    {
+        "idx": 15,
+        "imgurl": "../images/hot-3.jpg",
+        "img": "src/images/hot-3.jpg",
+        "name": "Merries日本花王妙而舒纸尿裤尿不湿L54片",
+        "USD": 179,
+        "SaveUSD": 108,
+        "Redirection": "2包立减30",
+        "shipping-warehouse":"日本直供宝贝妈咪发货",
+        "time": "2012-12-16",
+        "hot":false,
+        "specials":false,
+        "bestsellers":true,
+        "new":false
+
+
+    },
+    {
+        "idx": 16,
+        "imgurl": "../images/hot-4.jpg",
+        "img": "src/images/hot-4.jpg",
+        "name": "Britax宝得适双面骑士儿童汽车安全座椅机灵小斑马isofix接口(送原装凉席)",
+        "USD": 4280,
+        "SaveUSD": 3699,
+        "shipping-warehouse":"速普自营",
+        "Redirection": "wholesale",
+        "time": "2014-01-17",
+        "hot":false,
+        "specials":false,
+        "bestsellers":true,
+        "new":false
+
+
+    },
+    {
+        "idx": 17,
+        "imgurl": "../images/hot-5.jpg",
+        "img": "src/images/hot-5.jpg",
+        "name": "Aptamil爱他美英国奶粉4段800g",
+        "USD": 199,
+        "SaveUSD": 122,
+        "shipping-warehouse":"英国直供速普保税仓发货",
+        "Redirection": "wholesale",
+        "time": "2016-01-18",
+        "hot":false,
+        "specials":false,
+        "bestsellers":true,
+        "new":false
+
+
+    }
+   
+]

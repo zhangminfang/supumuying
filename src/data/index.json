@@ -1,0 +1,137 @@
+[
+    {
+        "idx": 0,
+        "imgurl": "src/images/qingguang.png",
+        "name":"【保税区直发】JMsolution肌司研 青光海洋珍珠深层补水眼霜40ml",
+        "USD": 65,
+        "SaveUSD": 99,
+        "time": "2000-01-01",
+        "hot":true,
+        "brand":false
+        
+    },
+    {
+        "idx": 1,
+        "imgurl": "src/images/taiguo.png",
+        "name":"【保税区直发】泰国Beauty Buffet牛奶洗面奶*2支",
+        "USD": 72,
+        "SaveUSD": 129,
+        "time": "2018-01-02",
+        "hot":true,
+        "brand":false
+    },
+    {
+        "idx": 2,
+        "imgurl": "src/images/meidihuier.png",
+        "name":"【保税区直发】MEDIHEAL美迪惠尔 可莱丝针剂水库水润爽肤水165ml",
+        "USD": 79,
+        "SaveUSD": 129,
+        "time": "2061-01-03",
+        "hot":true,
+        "brand":false
+    },
+    {
+        "idx": 3,
+        "imgurl": "src/images/yiyun.png",
+        "name":"【保税区直发】依云Evian天然矿泉水喷雾400ml*2支",
+        "USD": 92,
+        "SaveUSD": 199,
+        "time": "1999-01-04",
+        "hot":true,
+        "brand":false
+    },
+    {
+        "idx": 4,
+        "imgurl": "src/images/jm.png",
+        "name": "【保税区直发】JMsolution肌司研 爆品面膜4件组合(水光蜂蜜10片/盒+海洋珍珠10片/盒+樱花水光10片/盒+急救补水10片/盒)",
+        "USD": 225,
+        "SaveUSD": 299,
+        "time": "1994-01-05",
+        "hot":true,
+        "brand":false
+    },
+    {
+        "idx": 5,
+        "imgurl": "src/images/huawang.png",
+        "name": "日本花王",
+        "USD": 0,
+        "SaveUSD": 0,
+        "Redirection": "wholesale",
+        "time": "2018-01-19",
+        "hot":false,
+        "brand":true
+    },
+    {
+        "idx": 6,
+        "imgurl": "src/images/baodeshi.png",
+        "name": "宝得适",
+        "USD": 0,
+        "SaveUSD": 0,
+        "time": "2085-02-07",
+        "hot":false,
+        "brand":true
+    },
+    {
+        "idx": 7,
+        "imgurl": "src/images/mamibao.png",
+        "name": "时尚妈咪包",
+        "USD": 628,
+        "SaveUSD": 541,
+        "time": "2011-11-08",
+        "hot":false,
+        "brand":true
+
+    },
+    {
+        "idx": 8,
+        "imgurl": "src/images/dazuihou.png",
+        "name": "大嘴猴",
+        "USD": 966,
+        "SaveUSD": 779,
+        "time": "2048-06-09",
+        "hot":false,
+        "brand":true
+
+    },
+    {
+        "idx": 9,
+        "imgurl": "src/images/baowenbei.png",
+        "name": "高品质保温杯",
+        "USD": 230,
+        "SaveUSD": 79,
+        "time": "2008-01-10",
+        "hot":false,
+        "brand":true
+    },
+    {
+        "idx": 10,
+        "imgurl": "src/images/hengshi.png",
+        "name": "亨氏",
+        "USD": 101,
+        "SaveUSD": 100,
+        "time": "2018-04-11",
+        "hot":false,
+        "brand":true
+    },
+    {
+        "idx": 11,
+        "imgurl": "src/images/baoning.png",
+        "name": "保宁",
+        "USD": 222,
+        "SaveUSD": 111,
+        "time": "2011-04-12",
+        "hot":false,
+        "brand":true
+       
+    },
+    {
+        "idx": 12,
+        "imgurl": "src/images/qizhi.png",
+        "name": "启智",
+        "USD": 0,
+        "SaveUSD": 0,
+        "time": "2002-06-13",
+        "hot":false,
+        "brand":true
+    }
+]
